@@ -1,0 +1,60 @@
+###銘柄の情報""" ・銘柄名：ジーダット<3841>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4330708661417323, recall=0.5978260869565217, fmeasure=0.5022831050228311), 'rougeL': Score(precision=0.23622047244094488, recall=0.32608695652173914, fmeasure=0.273972602739726)}
+###銘柄の情報""" ・銘柄名：FLネット<9241>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4393939393939394, recall=0.3945578231292517, fmeasure=0.4157706093189964), 'rougeL': Score(precision=0.2803030303030303, recall=0.25170068027210885, fmeasure=0.2652329749103942)}
+###銘柄の情報""" ・銘柄名：イシン<143A>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.504424778761062, recall=0.29842931937172773, fmeasure=0.37500000000000006), 'rougeL': Score(precision=0.2743362831858407, recall=0.16230366492146597, fmeasure=0.20394736842105263)}
+###銘柄の情報""" ・銘柄名：サスメド<4263>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.5344827586206896, recall=0.27312775330396477, fmeasure=0.36151603498542273), 'rougeL': Score(precision=0.3103448275862069, recall=0.15859030837004406, fmeasure=0.2099125364431487)}
+###銘柄の情報""" ・銘柄名：ACCESS<4813>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.3533834586466165, recall=0.32413793103448274, fmeasure=0.3381294964028777), 'rougeL': Score(precision=0.18045112781954886, recall=0.16551724137931034, fmeasure=0.17266187050359713)}
+###銘柄の情報""" ・銘柄名：ラクーンHD<3031>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4, recall=0.24242424242424243, fmeasure=0.30188679245283023), 'rougeL': Score(precision=0.19166666666666668, recall=0.11616161616161616, fmeasure=0.14465408805031446)}
+###銘柄の情報""" ・銘柄名：エフ・コード<9211>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4583333333333333, recall=0.2682926829268293, fmeasure=0.3384615384615385), 'rougeL': Score(precision=0.25, recall=0.14634146341463414, fmeasure=0.1846153846153846)}
+###銘柄の情報""" ・銘柄名：高田機<5923>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.53125, recall=0.3177570093457944, fmeasure=0.39766081871345027), 'rougeL': Score(precision=0.359375, recall=0.21495327102803738, fmeasure=0.26900584795321636)}
+###銘柄の情報""" ・銘柄名：さくらネット<3778>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.34108527131782945, recall=0.36065573770491804, fmeasure=0.350597609561753), 'rougeL': Score(precision=0.20930232558139536, recall=0.22131147540983606, fmeasure=0.2151394422310757)}
+###銘柄の情報""" ・銘柄名：高見サイ<6424>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.5, recall=0.22274881516587677, fmeasure=0.3081967213114754), 'rougeL': Score(precision=0.3829787234042553, recall=0.17061611374407584, fmeasure=0.23606557377049184)}
+###銘柄の情報""" ・銘柄名：三栄コ<8119>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.2222222222222222, recall=0.5084745762711864, fmeasure=0.3092783505154639), 'rougeL': Score(precision=0.14074074074074075, recall=0.3220338983050847, fmeasure=0.1958762886597938)}
+###銘柄の情報""" ・銘柄名：みらいWKS<6563>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4392523364485981, recall=0.3357142857142857, fmeasure=0.3805668016194332), 'rougeL': Score(precision=0.29906542056074764, recall=0.22857142857142856, fmeasure=0.25910931174089064)}
+###銘柄の情報""" ・銘柄名：インテG<192A>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4742268041237113, recall=0.23232323232323232, fmeasure=0.311864406779661), 'rougeL': Score(precision=0.30927835051546393, recall=0.15151515151515152, fmeasure=0.2033898305084746)}
+###銘柄の情報""" ・銘柄名：ドリムアーツ<4811>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.55, recall=0.13056379821958458, fmeasure=0.21103117505995206), 'rougeL': Score(precision=0.3625, recall=0.08605341246290801, fmeasure=0.13908872901678657)}
+###銘柄の情報""" ・銘柄名：ファンペップ<4881>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.3949579831932773, recall=0.3032258064516129, fmeasure=0.34306569343065696), 'rougeL': Score(precision=0.226890756302521, recall=0.17419354838709677, fmeasure=0.19708029197080293)}
+###銘柄の情報""" ・銘柄名：メタプラ<3350>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.4, recall=0.4, fmeasure=0.4000000000000001), 'rougeL': Score(precision=0.2076923076923077, recall=0.2076923076923077, fmeasure=0.2076923076923077)}
+###銘柄の情報""" ・銘柄名：ホーチキ<6745>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.36134453781512604, recall=0.3115942028985507, fmeasure=0.3346303501945525), 'rougeL': Score(precision=0.226890756302521, recall=0.1956521739130435, fmeasure=0.21011673151750976)}
+###銘柄の情報""" ・銘柄名：キタック<4707>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.5407407407407407, recall=0.2166172106824926, fmeasure=0.3093220338983051), 'rougeL': Score(precision=0.26666666666666666, recall=0.10682492581602374, fmeasure=0.15254237288135594)}
+###銘柄の情報""" ・銘柄名：ホトニクス<6965>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.49295774647887325, recall=0.2766798418972332, fmeasure=0.3544303797468355), 'rougeL': Score(precision=0.2887323943661972, recall=0.16205533596837945, fmeasure=0.20759493670886076)}
+###銘柄の情報""" ・銘柄名：Gオイスター<3224>2024-09-02 00:00:00
+ROUGEスコアを out/rouge_baseline_zeroshot_20251204_190746.csv に追記しました
+{'rouge1': Score(precision=0.5132743362831859, recall=0.5523809523809524, fmeasure=0.5321100917431192), 'rougeL': Score(precision=0.2920353982300885, recall=0.3142857142857143, fmeasure=0.30275229357798167)}

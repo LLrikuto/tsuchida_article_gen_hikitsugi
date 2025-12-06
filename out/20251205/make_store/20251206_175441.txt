@@ -1,0 +1,87 @@
+ストア作成完了。store_name：企業発情報_20251205、ストアID： vs_6933ee48b8c0819192c1678ab65fb532
+
+=== 登録確認 ===
+ファイルID: file-Sd7xc6tFu7AtmL3auUzt4B
+ファイル名: data/PDF_data/20251205/UMCエレ_6615.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-Kg5CULmZNe5eRYkbah3inw
+ファイル名: data/PDF_data/20251205/日本新薬_4516.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-T8SjvRgCkJeX46XGjGXizh
+ファイル名: data/PDF_data/20251205/リガクHD_268A.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-E7bgueoNdukz5mfBP9Taxr
+ファイル名: data/PDF_data/20251205/Wディッシュ_2901.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-6FAmYXML6xC6Utp3FWrnYA
+ファイル名: data/PDF_data/20251205/多摩川HD_6838.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-6FAmYXML6xC6Utp3FWrnYA': {'銘柄名': '多摩川HD', '銘柄コード': '6838'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-UnCpuWhJCiU5g2TPhuF3qQ
+ファイル名: data/PDF_data/20251205/エイケン工業_7265.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-6FAmYXML6xC6Utp3FWrnYA': {'銘柄名': '多摩川HD', '銘柄コード': '6838'}, 'file-UnCpuWhJCiU5g2TPhuF3qQ': {'銘柄名': 'エイケン工業', '銘柄コード': '7265'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-SBwartamEaWxCFZw1MKThB
+ファイル名: data/PDF_data/20251205/Rフィールド_2910.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-6FAmYXML6xC6Utp3FWrnYA': {'銘柄名': '多摩川HD', '銘柄コード': '6838'}, 'file-UnCpuWhJCiU5g2TPhuF3qQ': {'銘柄名': 'エイケン工業', '銘柄コード': '7265'}, 'file-SBwartamEaWxCFZw1MKThB': {'銘柄名': 'Rフィールド', '銘柄コード': '2910'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-SBwartamEaWxCFZw1MKThB
+ファイル名: data/PDF_data/20251205/デジプラ_3691.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-6FAmYXML6xC6Utp3FWrnYA': {'銘柄名': '多摩川HD', '銘柄コード': '6838'}, 'file-UnCpuWhJCiU5g2TPhuF3qQ': {'銘柄名': 'エイケン工業', '銘柄コード': '7265'}, 'file-SBwartamEaWxCFZw1MKThB': {'銘柄名': 'デジプラ', '銘柄コード': '3691'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-4NGEtR9oVdwNqgGazD81vL
+ファイル名: data/PDF_data/20251205/アクアライン_6173.pdf
+ステータス: completed
+メタデータ： {'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-6FAmYXML6xC6Utp3FWrnYA': {'銘柄名': '多摩川HD', '銘柄コード': '6838'}, 'file-UnCpuWhJCiU5g2TPhuF3qQ': {'銘柄名': 'エイケン工業', '銘柄コード': '7265'}, 'file-SBwartamEaWxCFZw1MKThB': {'銘柄名': 'デジプラ', '銘柄コード': '3691'}, 'file-4NGEtR9oVdwNqgGazD81vL': {'銘柄名': 'アクアライン', '銘柄コード': '6173'}}
+------
+
+=== 全ファイル確認 ===
+ファイルID: file-4NGEtR9oVdwNqgGazD81vL
+ステータス: completed
+ファイルID: file-AZmAHhD7dgrxfy6vZrAuie
+ステータス: completed
+ファイルID: file-SBwartamEaWxCFZw1MKThB
+ステータス: completed
+ファイルID: file-UnCpuWhJCiU5g2TPhuF3qQ
+ステータス: completed
+ファイルID: file-6FAmYXML6xC6Utp3FWrnYA
+ステータス: completed
+ファイルID: file-E7bgueoNdukz5mfBP9Taxr
+ステータス: completed
+ファイルID: file-T8SjvRgCkJeX46XGjGXizh
+ステータス: completed
+ファイルID: file-Kg5CULmZNe5eRYkbah3inw
+ステータス: completed
+ファイルID: file-Sd7xc6tFu7AtmL3auUzt4B
+ステータス: completed
+
+=== 最終的なメタデータ確認 ===
+{'file-Sd7xc6tFu7AtmL3auUzt4B': {'銘柄名': 'UMCエレ', '銘柄コード': '6615'}, 'file-Kg5CULmZNe5eRYkbah3inw': {'銘柄名': '日本新薬', '銘柄コード': '4516'}, 'file-T8SjvRgCkJeX46XGjGXizh': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-E7bgueoNdukz5mfBP9Taxr': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-6FAmYXML6xC6Utp3FWrnYA': {'銘柄名': '多摩川HD', '銘柄コード': '6838'}, 'file-UnCpuWhJCiU5g2TPhuF3qQ': {'銘柄名': 'エイケン工業', '銘柄コード': '7265'}, 'file-SBwartamEaWxCFZw1MKThB': {'銘柄名': 'デジプラ', '銘柄コード': '3691'}, 'file-4NGEtR9oVdwNqgGazD81vL': {'銘柄名': 'アクアライン', '銘柄コード': '6173'}}
