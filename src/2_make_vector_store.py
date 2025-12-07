@@ -9,7 +9,7 @@ import datetime
 now = datetime.datetime.now()
 
 # ここでファイル名を全て管理
-target_date = "20251205"
+target_date = "20251204"
 
 dir_path = f"out/{target_date}/make_store/"
 # ディレクトリが存在しなければ作成
@@ -17,6 +17,7 @@ os.makedirs(dir_path, exist_ok=True)
 
 # 入力ファイル名を指定
 df = pd.read_csv(f'data/{target_date}.csv')
+# df = pd.read_csv(f'data/fewshot_data.csv')
 
 # ファイル名に注意
 timestamp = now.strftime("%Y%m%d_%H%M%S")

@@ -1,0 +1,141 @@
+ストア作成完了。store_name：企業発情報_20240902、ストアID： vs_693527b478e4819181bcd2a18a8213c1
+
+=== 登録確認 ===
+ファイルID: file-5RVAENdMLPGvmpFRX8E4b3
+ファイル名: data/PDF_data/20240902/ジーダット_3841.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-Nvn87fRXvTWmn83AHvg1rv
+ファイル名: data/PDF_data/20240902/サスメド_4263.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-9amY3dWobaWrafWEptY9iJ
+ファイル名: data/PDF_data/20240902/ACCESS_4813.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-2f61bm3ktDevhtzqZnbmFc
+ファイル名: data/PDF_data/20240902/ラクーンHD_3031.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-BGEZySFgTmvL8tK39VLWxR
+ファイル名: data/PDF_data/20240902/エフ・コード_9211.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-EUrCjgGQuy18dLTPggqWhY
+ファイル名: data/PDF_data/20240902/高田機_5923.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-84SNMLL2Sx9ts2ibPBEVUB
+ファイル名: data/PDF_data/20240902/さくらネット_3778.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-9aqiFfbUFuiGzcXrZRjCF2
+ファイル名: data/PDF_data/20240902/高見サイ_6424.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-6Uj3tfdcxn4Nt4sGzzynnw
+ファイル名: data/PDF_data/20240902/みらいWKS_6563.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-QMaC7SeFkVkeV1iiA6HVyG
+ファイル名: data/PDF_data/20240902/インテG_192A.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'インテG', '銘柄コード': '192A'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-QMaC7SeFkVkeV1iiA6HVyG
+ファイル名: data/PDF_data/20240902/ドリムアーツ_4811.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'ドリムアーツ', '銘柄コード': '4811'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-VvXaEwdBoQokmcA4MUx8gP
+ファイル名: data/PDF_data/20240902/ファンペップ_4881.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'ドリムアーツ', '銘柄コード': '4811'}, 'file-VvXaEwdBoQokmcA4MUx8gP': {'銘柄名': 'ファンペップ', '銘柄コード': '4881'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-GiN7zvuiATGuNjE2FJf4oc
+ファイル名: data/PDF_data/20240902/メタプラ_3350.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'ドリムアーツ', '銘柄コード': '4811'}, 'file-VvXaEwdBoQokmcA4MUx8gP': {'銘柄名': 'ファンペップ', '銘柄コード': '4881'}, 'file-GiN7zvuiATGuNjE2FJf4oc': {'銘柄名': 'メタプラ', '銘柄コード': '3350'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-BqDKf8a92rVFn4SnYtPC1c
+ファイル名: data/PDF_data/20240902/ホーチキ_6745.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'ドリムアーツ', '銘柄コード': '4811'}, 'file-VvXaEwdBoQokmcA4MUx8gP': {'銘柄名': 'ファンペップ', '銘柄コード': '4881'}, 'file-GiN7zvuiATGuNjE2FJf4oc': {'銘柄名': 'メタプラ', '銘柄コード': '3350'}, 'file-BqDKf8a92rVFn4SnYtPC1c': {'銘柄名': 'ホーチキ', '銘柄コード': '6745'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-G2tSSGAy2EhtsaCyG6ftCc
+ファイル名: data/PDF_data/20240902/ホトニクス_6965.pdf
+ステータス: completed
+メタデータ： {'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'ドリムアーツ', '銘柄コード': '4811'}, 'file-VvXaEwdBoQokmcA4MUx8gP': {'銘柄名': 'ファンペップ', '銘柄コード': '4881'}, 'file-GiN7zvuiATGuNjE2FJf4oc': {'銘柄名': 'メタプラ', '銘柄コード': '3350'}, 'file-BqDKf8a92rVFn4SnYtPC1c': {'銘柄名': 'ホーチキ', '銘柄コード': '6745'}, 'file-G2tSSGAy2EhtsaCyG6ftCc': {'銘柄名': 'ホトニクス', '銘柄コード': '6965'}}
+------
+
+=== 全ファイル確認 ===
+ファイルID: file-G2tSSGAy2EhtsaCyG6ftCc
+ステータス: completed
+ファイルID: file-BqDKf8a92rVFn4SnYtPC1c
+ステータス: completed
+ファイルID: file-GiN7zvuiATGuNjE2FJf4oc
+ステータス: completed
+ファイルID: file-VvXaEwdBoQokmcA4MUx8gP
+ステータス: completed
+ファイルID: file-VJN1LWEJKCzoasNqmpEsDj
+ステータス: completed
+ファイルID: file-QMaC7SeFkVkeV1iiA6HVyG
+ステータス: completed
+ファイルID: file-6Uj3tfdcxn4Nt4sGzzynnw
+ステータス: completed
+ファイルID: file-9aqiFfbUFuiGzcXrZRjCF2
+ステータス: completed
+ファイルID: file-84SNMLL2Sx9ts2ibPBEVUB
+ステータス: completed
+ファイルID: file-EUrCjgGQuy18dLTPggqWhY
+ステータス: completed
+ファイルID: file-BGEZySFgTmvL8tK39VLWxR
+ステータス: completed
+ファイルID: file-2f61bm3ktDevhtzqZnbmFc
+ステータス: completed
+ファイルID: file-9amY3dWobaWrafWEptY9iJ
+ステータス: completed
+ファイルID: file-Nvn87fRXvTWmn83AHvg1rv
+ステータス: completed
+ファイルID: file-5RVAENdMLPGvmpFRX8E4b3
+ステータス: completed
+
+=== 最終的なメタデータ確認 ===
+{'file-5RVAENdMLPGvmpFRX8E4b3': {'銘柄名': 'ジーダット', '銘柄コード': '3841'}, 'file-Nvn87fRXvTWmn83AHvg1rv': {'銘柄名': 'サスメド', '銘柄コード': '4263'}, 'file-9amY3dWobaWrafWEptY9iJ': {'銘柄名': 'ACCESS', '銘柄コード': '4813'}, 'file-2f61bm3ktDevhtzqZnbmFc': {'銘柄名': 'ラクーンHD', '銘柄コード': '3031'}, 'file-BGEZySFgTmvL8tK39VLWxR': {'銘柄名': 'エフ・コード', '銘柄コード': '9211'}, 'file-EUrCjgGQuy18dLTPggqWhY': {'銘柄名': '高田機', '銘柄コード': '5923'}, 'file-84SNMLL2Sx9ts2ibPBEVUB': {'銘柄名': 'さくらネット', '銘柄コード': '3778'}, 'file-9aqiFfbUFuiGzcXrZRjCF2': {'銘柄名': '高見サイ', '銘柄コード': '6424'}, 'file-6Uj3tfdcxn4Nt4sGzzynnw': {'銘柄名': 'みらいWKS', '銘柄コード': '6563'}, 'file-QMaC7SeFkVkeV1iiA6HVyG': {'銘柄名': 'ドリムアーツ', '銘柄コード': '4811'}, 'file-VvXaEwdBoQokmcA4MUx8gP': {'銘柄名': 'ファンペップ', '銘柄コード': '4881'}, 'file-GiN7zvuiATGuNjE2FJf4oc': {'銘柄名': 'メタプラ', '銘柄コード': '3350'}, 'file-BqDKf8a92rVFn4SnYtPC1c': {'銘柄名': 'ホーチキ', '銘柄コード': '6745'}, 'file-G2tSSGAy2EhtsaCyG6ftCc': {'銘柄名': 'ホトニクス', '銘柄コード': '6965'}}

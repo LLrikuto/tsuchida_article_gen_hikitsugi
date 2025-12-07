@@ -10,7 +10,11 @@ import time
 now = datetime.datetime.now()
 
 # ここでファイル名を全て管理
-target_date = "20251205"
+target_date = "20251204"
+
+# ここでfewshotを指定する
+# method_type = "zeroshot"
+method_type = "fewshot"
 
 dir_path = f"out/{target_date}/article_gen/"
 # ディレクトリが存在しなければ作成
@@ -21,7 +25,7 @@ df = pd.read_csv(f'data/{target_date}.csv')
 
 # ファイル名を「YYYYMMDD_HHMMSS」形式にする
 timestamp = now.strftime("%Y%m%d_%H%M%S")
-file_time = f"{dir_path}/twostep_zeroshot_{timestamp}"
+file_time = f"{dir_path}/twostep_{method_type}_{timestamp}"
 
 file_name = f"{file_time}.txt"
 
@@ -60,91 +64,154 @@ for meigara, code, two, one, zero in zip(df['銘柄'], df['コード'], df['終�
     info="###入力文\"\"\"\n ・銘柄名："+str(meigara)+"<"+str(code)+">\n"+" ・３日間の株価変動："+str(two)+", "+str(one)+", "+str(zero)+"\n変動理由となる出来事の情報：\n"
     print(f"銘柄名："+str(meigara)+"<"+str(code)+">")
 
-    # 中間生成
-    response1 = client.responses.create(
-        model="gpt-4o",
-        input=[
-            {"role": "system",
-            "content": [
-                {"type": "input_text",
-                "text": f"###命令\"\"\"\nあなたはプロの金融アナリストです。銘柄名："+str(meigara)+"<"+str(code)+">に関するPDFファイルを参照し、株価変動の原因となり得る内容を抜粋して要約してください。\"\"\"\n"
+    if (method_type == "zeroshot"):
+        # 中間生成
+        response1 = client.responses.create(
+            model="gpt-4o",
+            input=[
+                {"role": "system",
+                "content": [
+                    {"type": "input_text",
+                    "text": f"###命令\"\"\"\nあなたはプロの金融アナリストです。銘柄名："+str(meigara)+"<"+str(code)+">に関するPDFファイルを参照し、株価変動の原因となり得る内容を抜粋して要約してください。\"\"\"\n"
+                    }
+                    # # 以下はデバッグ用
+                    # {"type": "input_text",
+                    # "text": "これから与えるPDFの内容にタイトルをつけてください。出力はタイトルのみで構わないです"+ meigara
+                    # }
+                    ]
+                },
+            ],
+            text={"format": {
+                "type": "text"
                 }
-                # # 以下はデバッグ用
-                # {"type": "input_text",
-                # "text": "これから与えるPDFの内容にタイトルをつけてください。出力はタイトルのみで構わないです"+ meigara
-                # }
-                ]
             },
-        ],
-        text={"format": {
-            "type": "text"
-            }
-        },
-        reasoning={},
-        tools=[
-            {"type": "file_search",
-            "vector_store_ids": [""]
-            }
-        ],
-        tool_choice={
-            "type": "file_search"
-        },
-        temperature=1,
-        max_output_tokens=2048,
-        top_p=1,
-        stream=False,
-        store=False
-    )
-
-    print("中間生成")
-    print(response1.output_text+"\n")
-
-    second_prompt = info + response1.output_text
-
-    print("2段階目のプロンプト")
-    print(second_prompt+"\n")
-
-    response2 = client.responses.create(
-        model="gpt-4o",
-        input=[
-            {"role": "system",
-            "content": [
-                {"type": "input_text",
-                "text": "###命令\"\"\"\nあなたはプロの記者です。下記の条件と入力される情報を元に、記事を出力してください。\n\"\"\"\n###条件\"\"\"\n・記事は銘柄名、株価の変動を表す用語、簡潔に要約した変動理由からなる\n・箇条書きではなく、文章の形で出力する\n・本文は300文字程度\n・文体は常体\n\"\"\""
+            reasoning={},
+            tools=[
+                {"type": "file_search",
+                "vector_store_ids": [""]
                 }
-                # # 以下はデバッグ用
-                # {"type": "input_text",
-                # "text": "これから与えるPDFの内容にタイトルをつけてください。出力はタイトルのみで構わないです"+ meigara
-                # }
-                ]
+            ],
+            tool_choice={
+                "type": "file_search"
             },
-            {"role": "user",
-            "content": [
-                {"type": "input_text",
-                "text": second_prompt
+            temperature=1,
+            max_output_tokens=2048,
+            top_p=1,
+            stream=False,
+            store=False
+        )
+
+        print("中間生成")
+        print(response1.output_text+"\n")
+
+        second_prompt = info + response1.output_text
+
+        print("2段階目のプロンプト")
+        print(second_prompt+"\n")
+
+        response2 = client.responses.create(
+            model="gpt-4o",
+            input=[
+                {"role": "system",
+                "content": [
+                    {"type": "input_text",
+                    "text": "###命令\"\"\"\nあなたはプロの記者です。下記の条件と入力される情報を元に、記事を出力してください。\n\"\"\"\n###条件\"\"\"\n・記事は銘柄名、株価の変動を表す用語、簡潔に要約した変動理由からなる\n・箇条書きではなく、文章の形で出力する\n・本文は300文字程度\n・文体は常体\n\"\"\""
+                    }
+                    ]
+                },
+                {"role": "user",
+                "content": [
+                    {"type": "input_text",
+                    "text": second_prompt
+                    }
+                    ]
+                },
+            ],
+            text={"format": {
+                "type": "text"
                 }
-                ]
             },
-        ],
-        text={"format": {
-            "type": "text"
-            }
-        },
-        reasoning={},
-        # tools=[
-        #     {"type": "file_search",
-        #     "vector_store_ids": ["vs_693076cb8bdc81919252dc9790da46f4"]
-        #     }
-        # ],
-        # tool_choice={
-        #     "type": "file_search"
-        # },
-        temperature=1,
-        max_output_tokens=2048,
-        top_p=1,
-        stream=False,
-        store=False
-    )
+            reasoning={},
+            temperature=1,
+            max_output_tokens=2048,
+            top_p=1,
+            stream=False,
+            store=False
+        )
+
+    elif (method_type == "fewshot"):
+        # テキストファイルを読み込む
+        with open("out/output_prompt.txt", "r", encoding="utf-8") as f:
+            content = f.read()
+
+        response1 = client.responses.create(
+            model="gpt-4o",
+            input=[
+                {"role": "system",
+                "content": [
+                    {"type": "input_text",
+                    "text": "###命令\"\"\"\nあなたはプロの金融アナリストです。銘柄名："+str(meigara)+"<"+str(code)+">に関するPDFファイルを参照し、株価変動の原因となり得る内容を抜粋して要約してください。\"\"\""
+                    }
+                    ]
+                },
+            ],
+            text={"format": {
+                "type": "text"
+                }
+            },
+            reasoning={},
+            tools=[
+                {"type": "file_search",
+                "vector_store_ids": [""]
+                }
+            ],
+            tool_choice={
+                "type": "file_search"
+            },
+            temperature=1,
+            max_output_tokens=2048,
+            top_p=1,
+            stream=False,
+            store=False
+        )
+
+        print("中間生成")
+        print(response1.output_text+"\n")
+
+        second_prompt = info + response1.output_text
+
+        print("2段階目のプロンプト")
+        print(second_prompt+"\n")
+
+        response2 = client.responses.create(
+            model="gpt-4o",
+            input=[
+                {"role": "system",
+                "content": [
+                    {"type": "input_text",
+                    "text": f"###命令\"\"\"\nあなたはプロの記者です。下記の条件と入力される情報を元に、記事を出力してください。\n\"\"\"\n###条件\"\"\"\n・記事は銘柄名、株価の変動を表す用語、簡潔に要約した変動理由からなる\n・箇条書きではなく、文章の形で出力する\n・本文は300文字程度\n・文体は常体\n\"\"\"例示を渡すので参考にしてください\n{content}\n"
+                    }
+                    ]
+                },
+                {"role": "user",
+                "content": [
+                    {"type": "input_text",
+                    "text": second_prompt
+                    }
+                    ]
+                },
+            ],
+            text={"format": {
+                "type": "text"
+                }
+            },
+            reasoning={},
+            temperature=1,
+            max_output_tokens=2048,
+            top_p=1,
+            stream=False,
+            store=False
+        )
 
     article_text = response2.output_text
     # 新しい列に追加

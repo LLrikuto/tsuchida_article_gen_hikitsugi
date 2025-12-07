@@ -1,0 +1,27 @@
+###銘柄の情報""" ・銘柄名：アライドアキ<6081>2025/12/4
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.46616541353383456, recall=0.3263157894736842, fmeasure=0.3839009287925697), 'rougeL': Score(precision=0.2556390977443609, recall=0.17894736842105263, fmeasure=0.21052631578947367)}
+###銘柄の情報""" ・銘柄名：ラウンドワン<4680>2025/12/4
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.42063492063492064, recall=0.4274193548387097, fmeasure=0.424), 'rougeL': Score(precision=0.2777777777777778, recall=0.28225806451612906, fmeasure=0.27999999999999997)}
+###銘柄の情報""" ・銘柄名：ブルーイノベ<5597>2025/12/3
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.5853658536585366, recall=0.631578947368421, fmeasure=0.6075949367088608), 'rougeL': Score(precision=0.34959349593495936, recall=0.37719298245614036, fmeasure=0.3628691983122363)}
+###銘柄の情報""" ・銘柄名：平田機工<6258>2025/12/3
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.4365079365079365, recall=0.3793103448275862, fmeasure=0.4059040590405904), 'rougeL': Score(precision=0.23015873015873015, recall=0.2, fmeasure=0.2140221402214022)}
+###銘柄の情報""" ・銘柄名：リガクHD<268A>2025/12/4
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.569620253164557, recall=0.45685279187817257, fmeasure=0.5070422535211268), 'rougeL': Score(precision=0.34810126582278483, recall=0.27918781725888325, fmeasure=0.30985915492957744)}
+###銘柄の情報""" ・銘柄名：トラースOP<6696>2025/12/4
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.631578947368421, recall=0.23225806451612904, fmeasure=0.33962264150943394), 'rougeL': Score(precision=0.34210526315789475, recall=0.12580645161290321, fmeasure=0.18396226415094338)}
+###銘柄の情報""" ・銘柄名：Wディッシュ<2901>2025/12/2
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.2722222222222222, recall=0.4117647058823529, fmeasure=0.32775919732441466), 'rougeL': Score(precision=0.16111111111111112, recall=0.24369747899159663, fmeasure=0.19397993311036787)}
+###銘柄の情報""" ・銘柄名：内田洋<8057>2025/12/3
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.5290697674418605, recall=0.3333333333333333, fmeasure=0.40898876404494383), 'rougeL': Score(precision=0.29651162790697677, recall=0.18681318681318682, fmeasure=0.22921348314606743)}
+###銘柄の情報""" ・銘柄名：デジプラ<3691>2025/12/3
+ROUGEスコアを out/20251204/rouge_score//rouge_twostep_fewshot_20251207_170456.csv に追記しました
+{'rouge1': Score(precision=0.4594594594594595, recall=0.4171779141104294, fmeasure=0.4372990353697749), 'rougeL': Score(precision=0.30405405405405406, recall=0.27607361963190186, fmeasure=0.28938906752411575)}

@@ -1,6 +1,15 @@
 2025/12/06更新、土田
 # 西田さん論文再現コード
 
+## 環境構築
+- githubをクローンする
+    - コマンド：git clone "wikiに書いてあるURL".git "自分のディレクトリへのパス"
+        - 例：git clone https://github.com/LLrikuto/tsuchida_article_gen_hikitsugi/.git /home/rikutotsuchida0329/work/
+    - アクセストークンみたいなものが必要になる可能性がある
+- コンテナを作り、pythonコマンドが使えるようにする
+    - python3 --version で使えるか確認できる
+    - コンテナの作り方は学習済みのはずなのでチュートリアルを参照・・・http://nlp.iit.tsukuba.ac.jp/local/wiki/index.php?%C0%BE%C5%C4%A1%A7Docker%B4%D8%B7%B8
+
 ## 1．データ収集（スクレイピング）
 - 事前にwikiに書いてあるcsvファイルを作成しておく
     - ファイル名は「株価変動ランキングの日付_data.csv」,（例：20251205_data.csv）
@@ -48,12 +57,13 @@
 
 ## 3. 株価変動記事生成
 - 3_article_generation_"手法".pyを使用
+    - zeroshotとfewshotの２つがあるので必ず16~17行目で手法を指定
     - 13行目で必ず日付を指定する
         - 今日の日付ではなく、株探の株価変動ランキングの日付
     - python src/3_article_generation_"手法".pyで実行
 - 入力ファイル
     - data/"日付".csv
-    - 20行目で指定、2のPDF登録と同じファイル
+    - 24行目で指定、2のPDF登録と同じファイル
     - ベクトルストアID・・・108行目で指定
         - 必ず変更する、2のPDF登録で作られたIDを使用する
         - 別の日付のIDを絶対に使わないこと
@@ -76,6 +86,9 @@
 - 出力ファイル
     - out/rouge_score/
     - 銘柄、コード、スコア（６種類）の情報が入ったcsvファイル
+
+## おまけ　fewshot例の生成コード
+- 例示を変えたい場合はsrc/9999_make_prompt.pyを使う
 
 ## 補足と注意書き
 - 全体的にcsvを一から作成するときに、ファイル名を指示通りにしていれば日付変更するだけ

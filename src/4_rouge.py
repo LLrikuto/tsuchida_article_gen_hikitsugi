@@ -11,7 +11,7 @@ import csv
 now = datetime.datetime.now()
 
 # ここでファイル名を全て管理
-target_date = "20251205"
+target_date = "20251204"
 
 dir_path = f"out/{target_date}/rouge_score/"
 # ディレクトリが存在しなければ作成
@@ -24,7 +24,7 @@ method_type = "baseline_zeroshot"
 # method_type = "twostep_fewshot"
 
 # ファイル名に注意
-df = pd.read_csv(f'out/{target_date}/article_gen/{method_type}_20251206_180727.csv')
+df = pd.read_csv(f'out/{target_date}/article_gen/{method_type}_20251207_170017.csv')
 
 # ファイル名を「YYYYMMDD_HHMMSS」形式にする
 timestamp = now.strftime("%Y%m%d_%H%M%S")

@@ -1,0 +1,87 @@
+ストア作成完了。store_name：企業発情報_20251204、ストアID： vs_693528b20dec8191a1f46cf805eb0d1d
+
+=== 登録確認 ===
+ファイルID: file-BPtaGnZKr2NHw1vmACmqNh
+ファイル名: data/PDF_data/20251204/アライドアキ_6081.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-1oCkSG2j6HMttgMw8pMmjV
+ファイル名: data/PDF_data/20251204/ラウンドワン_4680.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-6M2v19gui5uLWw12qnJGaP
+ファイル名: data/PDF_data/20251204/ブルーイノベ_5597.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-EZ12AEbSpuaFd2jUqk7C6z
+ファイル名: data/PDF_data/20251204/平田機工_6258.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-AU6SVzgQF3RnMZe1qSoHBH
+ファイル名: data/PDF_data/20251204/リガクHD_268A.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}, 'file-AU6SVzgQF3RnMZe1qSoHBH': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-X8raXJvBoHS6JmjExGN3uk
+ファイル名: data/PDF_data/20251204/トラースOP_6696.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}, 'file-AU6SVzgQF3RnMZe1qSoHBH': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-X8raXJvBoHS6JmjExGN3uk': {'銘柄名': 'トラースOP', '銘柄コード': '6696'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-V7BVSi1t2BDFbrxq5gznpk
+ファイル名: data/PDF_data/20251204/Wディッシュ_2901.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}, 'file-AU6SVzgQF3RnMZe1qSoHBH': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-X8raXJvBoHS6JmjExGN3uk': {'銘柄名': 'トラースOP', '銘柄コード': '6696'}, 'file-V7BVSi1t2BDFbrxq5gznpk': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-Wxmh9coXwAJkEWXEwShCNw
+ファイル名: data/PDF_data/20251204/内田洋_8057.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}, 'file-AU6SVzgQF3RnMZe1qSoHBH': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-X8raXJvBoHS6JmjExGN3uk': {'銘柄名': 'トラースOP', '銘柄コード': '6696'}, 'file-V7BVSi1t2BDFbrxq5gznpk': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-Wxmh9coXwAJkEWXEwShCNw': {'銘柄名': '内田洋', '銘柄コード': '8057'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-V4VbSM1pAL12DiC4So4ght
+ファイル名: data/PDF_data/20251204/デジプラ_3691.pdf
+ステータス: completed
+メタデータ： {'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}, 'file-AU6SVzgQF3RnMZe1qSoHBH': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-X8raXJvBoHS6JmjExGN3uk': {'銘柄名': 'トラースOP', '銘柄コード': '6696'}, 'file-V7BVSi1t2BDFbrxq5gznpk': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-Wxmh9coXwAJkEWXEwShCNw': {'銘柄名': '内田洋', '銘柄コード': '8057'}, 'file-V4VbSM1pAL12DiC4So4ght': {'銘柄名': 'デジプラ', '銘柄コード': '3691'}}
+------
+
+=== 全ファイル確認 ===
+ファイルID: file-V4VbSM1pAL12DiC4So4ght
+ステータス: completed
+ファイルID: file-Wxmh9coXwAJkEWXEwShCNw
+ステータス: completed
+ファイルID: file-V7BVSi1t2BDFbrxq5gznpk
+ステータス: completed
+ファイルID: file-X8raXJvBoHS6JmjExGN3uk
+ステータス: completed
+ファイルID: file-AU6SVzgQF3RnMZe1qSoHBH
+ステータス: completed
+ファイルID: file-EZ12AEbSpuaFd2jUqk7C6z
+ステータス: completed
+ファイルID: file-6M2v19gui5uLWw12qnJGaP
+ステータス: completed
+ファイルID: file-1oCkSG2j6HMttgMw8pMmjV
+ステータス: completed
+ファイルID: file-BPtaGnZKr2NHw1vmACmqNh
+ステータス: completed
+
+=== 最終的なメタデータ確認 ===
+{'file-BPtaGnZKr2NHw1vmACmqNh': {'銘柄名': 'アライドアキ', '銘柄コード': '6081'}, 'file-1oCkSG2j6HMttgMw8pMmjV': {'銘柄名': 'ラウンドワン', '銘柄コード': '4680'}, 'file-6M2v19gui5uLWw12qnJGaP': {'銘柄名': 'ブルーイノベ', '銘柄コード': '5597'}, 'file-EZ12AEbSpuaFd2jUqk7C6z': {'銘柄名': '平田機工', '銘柄コード': '6258'}, 'file-AU6SVzgQF3RnMZe1qSoHBH': {'銘柄名': 'リガクHD', '銘柄コード': '268A'}, 'file-X8raXJvBoHS6JmjExGN3uk': {'銘柄名': 'トラースOP', '銘柄コード': '6696'}, 'file-V7BVSi1t2BDFbrxq5gznpk': {'銘柄名': 'Wディッシュ', '銘柄コード': '2901'}, 'file-Wxmh9coXwAJkEWXEwShCNw': {'銘柄名': '内田洋', '銘柄コード': '8057'}, 'file-V4VbSM1pAL12DiC4So4ght': {'銘柄名': 'デジプラ', '銘柄コード': '3691'}}

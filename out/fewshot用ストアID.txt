@@ -1,0 +1,51 @@
+ストア作成完了。store_name：企業発情報_20240902、ストアID： vs_69351efdfb888191ad194918c273bb4e
+
+=== 登録確認 ===
+ファイルID: file-JQ66xSB8q83pUrtfyX9Qmx
+ファイル名: data/PDF_data/20240902/FLネット_9241.pdf
+ステータス: completed
+メタデータ： {'file-JQ66xSB8q83pUrtfyX9Qmx': {'銘柄名': 'FLネット', '銘柄コード': '9241'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-FVf4FHDkr1C3K5iSpaeFMe
+ファイル名: data/PDF_data/20240902/イシン_143A.pdf
+ステータス: completed
+メタデータ： {'file-JQ66xSB8q83pUrtfyX9Qmx': {'銘柄名': 'FLネット', '銘柄コード': '9241'}, 'file-FVf4FHDkr1C3K5iSpaeFMe': {'銘柄名': 'イシン', '銘柄コード': '143A'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-NzXoGTVA4zYFfE5wWqBd4k
+ファイル名: data/PDF_data/20240902/三栄コ_8119.pdf
+ステータス: completed
+メタデータ： {'file-JQ66xSB8q83pUrtfyX9Qmx': {'銘柄名': 'FLネット', '銘柄コード': '9241'}, 'file-FVf4FHDkr1C3K5iSpaeFMe': {'銘柄名': 'イシン', '銘柄コード': '143A'}, 'file-NzXoGTVA4zYFfE5wWqBd4k': {'銘柄名': '三栄コ', '銘柄コード': '8119'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-6zcRZWC53DKKa3ZJVJZan6
+ファイル名: data/PDF_data/20240902/キタック_4707.pdf
+ステータス: completed
+メタデータ： {'file-JQ66xSB8q83pUrtfyX9Qmx': {'銘柄名': 'FLネット', '銘柄コード': '9241'}, 'file-FVf4FHDkr1C3K5iSpaeFMe': {'銘柄名': 'イシン', '銘柄コード': '143A'}, 'file-NzXoGTVA4zYFfE5wWqBd4k': {'銘柄名': '三栄コ', '銘柄コード': '8119'}, 'file-6zcRZWC53DKKa3ZJVJZan6': {'銘柄名': 'キタック', '銘柄コード': '4707'}}
+------
+
+=== 登録確認 ===
+ファイルID: file-UJbnYreKuae6SS1ir2RpWC
+ファイル名: data/PDF_data/20240902/Gオイスター_3224.pdf
+ステータス: completed
+メタデータ： {'file-JQ66xSB8q83pUrtfyX9Qmx': {'銘柄名': 'FLネット', '銘柄コード': '9241'}, 'file-FVf4FHDkr1C3K5iSpaeFMe': {'銘柄名': 'イシン', '銘柄コード': '143A'}, 'file-NzXoGTVA4zYFfE5wWqBd4k': {'銘柄名': '三栄コ', '銘柄コード': '8119'}, 'file-6zcRZWC53DKKa3ZJVJZan6': {'銘柄名': 'キタック', '銘柄コード': '4707'}, 'file-UJbnYreKuae6SS1ir2RpWC': {'銘柄名': 'Gオイスター', '銘柄コード': '3224'}}
+------
+
+=== 全ファイル確認 ===
+ファイルID: file-UJbnYreKuae6SS1ir2RpWC
+ステータス: completed
+ファイルID: file-6zcRZWC53DKKa3ZJVJZan6
+ステータス: completed
+ファイルID: file-NzXoGTVA4zYFfE5wWqBd4k
+ステータス: completed
+ファイルID: file-FVf4FHDkr1C3K5iSpaeFMe
+ステータス: completed
+ファイルID: file-JQ66xSB8q83pUrtfyX9Qmx
+ステータス: completed
+
+=== 最終的なメタデータ確認 ===
+{'file-JQ66xSB8q83pUrtfyX9Qmx': {'銘柄名': 'FLネット', '銘柄コード': '9241'}, 'file-FVf4FHDkr1C3K5iSpaeFMe': {'銘柄名': 'イシン', '銘柄コード': '143A'}, 'file-NzXoGTVA4zYFfE5wWqBd4k': {'銘柄名': '三栄コ', '銘柄コード': '8119'}, 'file-6zcRZWC53DKKa3ZJVJZan6': {'銘柄名': 'キタック', '銘柄コード': '4707'}, 'file-UJbnYreKuae6SS1ir2RpWC': {'銘柄名': 'Gオイスター', '銘柄コード': '3224'}}

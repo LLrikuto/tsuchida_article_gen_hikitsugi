@@ -1,0 +1,45 @@
+###銘柄の情報""" ・銘柄名：ジーダット<3841>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5294117647058824, recall=0.5869565217391305, fmeasure=0.5567010309278351), 'rougeL': Score(precision=0.30392156862745096, recall=0.33695652173913043, fmeasure=0.31958762886597936)}
+###銘柄の情報""" ・銘柄名：サスメド<4263>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.6170212765957447, recall=0.2555066079295154, fmeasure=0.3613707165109034), 'rougeL': Score(precision=0.40425531914893614, recall=0.16740088105726872, fmeasure=0.23676012461059187)}
+###銘柄の情報""" ・銘柄名：ACCESS<4813>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.39285714285714285, recall=0.30344827586206896, fmeasure=0.3424124513618677), 'rougeL': Score(precision=0.20535714285714285, recall=0.15862068965517243, fmeasure=0.178988326848249)}
+###銘柄の情報""" ・銘柄名：ラクーンHD<3031>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.4125874125874126, recall=0.29797979797979796, fmeasure=0.3460410557184751), 'rougeL': Score(precision=0.23776223776223776, recall=0.1717171717171717, fmeasure=0.19941348973607037)}
+###銘柄の情報""" ・銘柄名：エフ・コード<9211>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.43548387096774194, recall=0.2634146341463415, fmeasure=0.3282674772036474), 'rougeL': Score(precision=0.27419354838709675, recall=0.16585365853658537, fmeasure=0.20668693009118538)}
+###銘柄の情報""" ・銘柄名：高田機<5923>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5238095238095238, recall=0.3598130841121495, fmeasure=0.4265927977839335), 'rougeL': Score(precision=0.3197278911564626, recall=0.21962616822429906, fmeasure=0.26038781163434904)}
+###銘柄の情報""" ・銘柄名：さくらネット<3778>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.34265734265734266, recall=0.4016393442622951, fmeasure=0.369811320754717), 'rougeL': Score(precision=0.20279720279720279, recall=0.23770491803278687, fmeasure=0.2188679245283019)}
+###銘柄の情報""" ・銘柄名：高見サイ<6424>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5533980582524272, recall=0.27014218009478674, fmeasure=0.3630573248407643), 'rougeL': Score(precision=0.3786407766990291, recall=0.1848341232227488, fmeasure=0.2484076433121019)}
+###銘柄の情報""" ・銘柄名：みらいWKS<6563>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5470085470085471, recall=0.45714285714285713, fmeasure=0.4980544747081712), 'rougeL': Score(precision=0.38461538461538464, recall=0.32142857142857145, fmeasure=0.3501945525291829)}
+###銘柄の情報""" ・銘柄名：インテG<192A>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.4897959183673469, recall=0.24242424242424243, fmeasure=0.32432432432432434), 'rougeL': Score(precision=0.3163265306122449, recall=0.15656565656565657, fmeasure=0.20945945945945946)}
+###銘柄の情報""" ・銘柄名：ドリムアーツ<4811>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5567010309278351, recall=0.16023738872403562, fmeasure=0.24884792626728114), 'rougeL': Score(precision=0.3711340206185567, recall=0.10682492581602374, fmeasure=0.16589861751152074)}
+###銘柄の情報""" ・銘柄名：ファンペップ<4881>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.35294117647058826, recall=0.1935483870967742, fmeasure=0.25), 'rougeL': Score(precision=0.23529411764705882, recall=0.12903225806451613, fmeasure=0.16666666666666666)}
+###銘柄の情報""" ・銘柄名：メタプラ<3350>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5213675213675214, recall=0.46923076923076923, fmeasure=0.4939271255060729), 'rougeL': Score(precision=0.29914529914529914, recall=0.2692307692307692, fmeasure=0.28340080971659914)}
+###銘柄の情報""" ・銘柄名：ホーチキ<6745>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.3445378151260504, recall=0.2971014492753623, fmeasure=0.31906614785992216), 'rougeL': Score(precision=0.21008403361344538, recall=0.18115942028985507, fmeasure=0.19455252918287938)}
+###銘柄の情報""" ・銘柄名：ホトニクス<6965>2024/9/2
+ROUGEスコアを out/20240902/rouge_score//rouge_baseline_fewshot_20251207_170231.csv に追記しました
+{'rouge1': Score(precision=0.5277777777777778, recall=0.22529644268774704, fmeasure=0.3157894736842105), 'rougeL': Score(precision=0.32407407407407407, recall=0.1383399209486166, fmeasure=0.19390581717451524)}

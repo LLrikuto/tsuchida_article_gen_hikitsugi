@@ -10,7 +10,11 @@ import time
 now = datetime.datetime.now()
 
 # ここでファイル名を全て管理
-target_date = "20251205"
+target_date = "20251204"
+
+# ここでfewshotを指定する
+method_type = "zeroshot"
+# method_type = "fewshot"
 
 dir_path = f"out/{target_date}/article_gen/"
 # ディレクトリが存在しなければ作成
@@ -21,7 +25,7 @@ df = pd.read_csv(f'data/{target_date}.csv')
 
 # ファイル名を「YYYYMMDD_HHMMSS」形式にする
 timestamp = now.strftime("%Y%m%d_%H%M%S")
-file_time = f"{dir_path}/baseline_zeroshot_{timestamp}"
+file_time = f"{dir_path}/baseline_{method_type}_{timestamp}"
 
 file_name = f"{file_time}.txt"
 
@@ -71,52 +75,95 @@ client = OpenAI(api_key = "")
 # 新しい列を追加するためのリスト
 generated_texts = []
 
-
 for meigara, code, two, one, zero in zip(df['銘柄'], df['コード'], df['終値2日前'], df['終値1日前'], df['終値0日前']):
     info="###銘柄の情報\"\"\" ・銘柄名："+str(meigara)+"<"+str(code)+">"+" ・３日間の株価変動："+str(two)+", "+str(one)+", "+str(zero)
     print(info)
+    
+    if (method_type == "zeroshot"):
+        response = client.responses.create(
+            model="gpt-4o",
+            input=[
+                {"role": "system",
+                "content": [
+                    {"type": "input_text",
+                    "text": "###命令\"\"\"\nあなたはプロの記者です。下記の条件と入力される銘柄の情報、株価変動理由を述べたPDFファイルの情報をもとに、記事を出力してください。\n\"\"\"\n###条件\"\"\"\n・記事は銘柄名、株価の変動を表す用語、簡潔に要約した変動理由からなる\n・箇条書きではなく、文章の形で出力する\n・本文は300文字程度\n・文体は常体\n\"\"\""
+                    }
+                    # # 以下はデバッグ用
+                    # {"type": "input_text",
+                    # "text": "これから与えるPDFの内容にタイトルをつけてください。出力はタイトルのみで構わないです"+ meigara
+                    # }
+                    ]
+                },
+                {"role": "user",
+                "content": [
+                    {"type": "input_text",
+                    "text": info
+                    }
+                    ]
+                },
+            ],
+            text={"format": {
+                "type": "text"
+                }
+            },
+            reasoning={},
+            tools=[
+                {"type": "file_search",
+                "vector_store_ids": [""]
+                }
+            ],
+            tool_choice={
+                "type": "file_search"
+            },
+            temperature=1,
+            max_output_tokens=2048,
+            top_p=1,
+            stream=False,
+            store=False
+        )
 
-    response = client.responses.create(
-        model="gpt-4o",
-        input=[
-            {"role": "system",
-            "content": [
-                {"type": "input_text",
-                "text": "###命令\"\"\"\nあなたはプロの記者です。下記の条件と入力される銘柄の情報、株価変動理由を述べたPDFファイルの情報をもとに、記事を出力してください。\n\"\"\"\n###条件\"\"\"\n・記事は銘柄名、株価の変動を表す用語、簡潔に要約した変動理由からなる\n・箇条書きではなく、文章の形で出力する\n・本文は300文字程度\n・文体は常体\n\"\"\""
+    elif(method_type == "fewshot"):
+        # テキストファイルを読み込む
+        with open("out/output_prompt.txt", "r", encoding="utf-8") as f:
+            content = f.read()
+
+        response = client.responses.create(
+            model="gpt-4o",
+            input=[
+                {"role": "system",
+                "content": [
+                    {"type": "input_text",
+                    "text": f"###命令\"\"\"\nあなたはプロの記者です。下記の条件と入力される銘柄の情報、株価変動理由を述べたPDFファイルの情報をもとに、記事を出力してください。\n\"\"\"\n###条件\"\"\"\n・記事は銘柄名、株価の変動を表す用語、簡潔に要約した変動理由からなる\n・箇条書きではなく、文章の形で出力する\n・本文は300文字程度\n・文体は常体\n\"\"\"例示を渡すので参考にしてください\n{content}\n"
+                    }
+                    ]
+                },
+                {"role": "user",
+                "content": [
+                    {"type": "input_text",
+                    "text": info
+                    }
+                    ]
+                },
+            ],
+            text={"format": {
+                "type": "text"
                 }
-                # # 以下はデバッグ用
-                # {"type": "input_text",
-                # "text": "これから与えるPDFの内容にタイトルをつけてください。出力はタイトルのみで構わないです"+ meigara
-                # }
-                ]
             },
-            {"role": "user",
-            "content": [
-                {"type": "input_text",
-                "text": info
+            reasoning={},
+            tools=[
+                {"type": "file_search",
+                "vector_store_ids": [""]
                 }
-                ]
+            ],
+            tool_choice={
+                "type": "file_search"
             },
-        ],
-        text={"format": {
-            "type": "text"
-            }
-        },
-        reasoning={},
-        tools=[
-            {"type": "file_search",
-            "vector_store_ids": [""]
-            }
-        ],
-        tool_choice={
-            "type": "file_search"
-        },
-        temperature=1,
-        max_output_tokens=2048,
-        top_p=1,
-        stream=False,
-        store=False
-    )
+            temperature=1,
+            max_output_tokens=2048,
+            top_p=1,
+            stream=False,
+            store=False
+        )        
 
     article_text = response.output_text
     # 新しい列に追加

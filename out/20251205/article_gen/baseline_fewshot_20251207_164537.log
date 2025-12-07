@@ -1,0 +1,10 @@
+2025-12-07 16:45:37,880 - ファイル登録開始
+2025-12-07 16:45:44,044 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:45:51,677 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:45:59,275 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:46:07,392 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:46:14,698 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:46:21,196 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:46:27,944 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:46:35,293 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-12-07 16:46:43,257 - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
