@@ -2,13 +2,13 @@
 # 西田さん論文再現コード
 
 ## 環境構築
-- githubをクローンする
-    - コマンド：git clone "wikiに書いてあるURL".git "自分のディレクトリへのパス"
-        - 例：git clone https://github.com/LLrikuto/tsuchida_article_gen_hikitsugi/.git /home/rikutotsuchida0329/work/
-    - アクセストークンみたいなものが必要になる可能性がある
 - コンテナを作り、pythonコマンドが使えるようにする
     - python3 --version で使えるか確認できる
     - コンテナの作り方は学習済みのはずなのでチュートリアルを参照・・・http://nlp.iit.tsukuba.ac.jp/local/wiki/index.php?%C0%BE%C5%C4%A1%A7Docker%B4%D8%B7%B8
+- githubをクローンする
+    - コマンド：git clone "wikiに書いてあるURL".git 
+        - 例：git clone https://github.com/LLrikuto/tsuchida_article_gen_hikitsugi/.git
+    - アクセストークンみたいなものが必要になる可能性がある
 
 ## 1．データ収集（スクレイピング）
 - 事前にwikiに書いてあるcsvファイルを作成しておく

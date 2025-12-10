@@ -23,7 +23,7 @@ timestamp = now.strftime("%Y%m%d")
 file_time = f"{dir_path}/{target_date}"
 
 # 入力csvファイルの読み込み
-input_file = f'data/{target_date}_test.csv'  # 読み込むcsvファイル
+input_file = f'data/{target_date}_data.csv'  # 読み込むcsvファイル
 
 output_file = f'{file_time}.csv'  # 書き出すcsvファイル
 
